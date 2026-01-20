@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>私密约会｜同城一对一配对</title>
+
+  <!-- ===== 基础样式 ===== -->
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans TC", Arial;
+      background: #0f0f0f;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 520px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      margin: 0 0 12px;
+      font-weight: 700;
+    }
+
+    p {
+      margin: 0 0 16px;
+      color: #d0d0d0;
+    }
+
+    /* ===== 图片占位 ===== */
+    .hero-img,
+    .profile-img {
+      width: 100%;
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 16px;
+      background: #222;
+    }
+
+    .hero-img img,
+    .profile-img img {
+      width: 100%;
+      display: block;
+    }
+
+    /* ===== 按钮 ===== */
+    .btn-line {
+      display: block;
+      width: 100%;
+      background: #06c755;
+      color: #000;
+      text-align: center;
+      padding: 16px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 40px;
+      text-decoration: none;
+      margin: 20px 0;
+    }
+
+    .btn-line:hover {
+      opacity: 0.9;
+    }
+
+    /* ===== 卡片 ===== */
+    .card {
+      background: #181818;
+      border-radius: 16px;
+      padding: 18px;
+      margin-bottom: 20px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #333;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 13px;
+      margin-right: 6px;
+      margin-bottom: 6px;
+    }
+
+    .profiles {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .profile {
+      background: #1c1c1c;
+      border-radius: 14px;
+      padding: 10px;
+      font-size: 14px;
+    }
+
+    .footer {
+      font-size: 12px;
+      color: #777;
+      text-align: center;
+      margin-top: 40px;
+    }
+  </style>
+
+  <!-- ===== 自动跳转（可选）===== -->
+  <script>
+    // 如果你想“几秒后自动跳 LINE”，打开下面即可
+    /*
+    setTimeout(function () {
+      window.location.href = "https://line.me/R/ti/p/你的LINEID";
+    }, 8000); // 8秒后跳转
+    */
+  </script>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- ===== 首屏 ===== -->
+    <div class="hero-img">
+      <!-- 换成你的主视觉图 -->
+      <img src="images/hero.jpg" alt="私密约会">
+    </div>
+
+    <h1>今晚，有人想认识你</h1>
+    <p>
+      不用下载交友软体，不用公开资料。  
+      这里，只安排<strong>一对一、意向明确</strong>的相遇。
+    </p>
+
+    <a class="btn-line" href="https://line.me/R/ti/p/你的LINEID">
+      👉 立即加入 LINE｜免费配对
+    </a>
+
+    <!-- ===== 痛点区 ===== -->
+    <div class="card">
+      <p>
+        一个人太久了，  
+        下班后却不知道找谁聊天。  
+      </p>
+      <p>
+        你不是不想认识人，  
+        只是厌倦了浪费时间。
+      </p>
+    </div>
+
+    <!-- ===== 服务说明 ===== -->
+    <div class="card">
+      <h2>我们在做什么？</h2>
+      <p>
+        ✔ 私密约会安排  
+        <br>✔ 专人协助配对  
+        <br>✔ 不公开、不曝光  
+        <br>✔ 全程 LINE 私聊
+      </p>
+    </div>
+
+    <!-- ===== 流程 ===== -->
+    <div class="card">
+      <h2>配对流程</h2>
+      <p>
+        1️⃣ 加入 LINE  
+        <br>2️⃣ 简单说明需求  
+        <br>3️⃣ 安排适合你的对象
+      </p>
+    </div>
+
+    <a class="btn-line" href="https://line.me/R/ti/p/你的LINEID">
+      👉 现在加入，看看有没有适合你的人
+    </a>
+
+    <!-- ===== 对象展示 ===== -->
+    <div class="card">
+      <h2>目前可配对对象</h2>
+
+      <div class="profiles">
+        <div class="profile">
+          <div class="profile-img">
+            <img src="images/p1.jpg"/400x500" alt="">
+          </div>
+          台北｜29 歲<br>上班族｜好聊
+        </div>
+
+        <div class="profile">
+          <div class="profile-img">
+            <img src="images/p2.jpg"/400x500" alt="">
+          </div>
+          台中｜34 歲<br>自由接案｜成熟
+        </div>
+
+        <div class="profile">
+          <div class="profile-img">
+            <img src="images/p3.jpg"/400x500" alt="">
+          </div>
+          高雄｜26 歲<br>夜貓型｜主動
+        </div>
+
+        <div class="profile">
+          <div class="profile-img">
+            <img src="images/p4.jpg"/400x500" alt="">
+          </div>
+          新北｜31 歲<br>氣質系｜不拖
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== 信任说明 ===== -->
+    <div class="card">
+      <p>
+        🔒 重视隐私，不公开资料  
+        <br>👤 真人审核  
+        <br>🕒 LINE 客服在线
+      </p>
+    </div>
+
+    <a class="btn-line" href="https://line.me/R/ti/p/你的LINEID">
+      👉 加 LINE 立即开始
+    </a>
+
+    <!-- ===== 底部说明 ===== -->
+    <div class="footer">
+      本服务为成人交友与约会安排<br>
+      须年满 18 岁<br>
+      不涉及非法交易
+    </div>
+
+  </div>
+
+</body>
+</html>
